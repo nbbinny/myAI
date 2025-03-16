@@ -1,4 +1,4 @@
-export const OWNER_NAME: string = `Norah`;
+export const OWNER_NAME: string = `Binny Realty Inc.`;
 export const OWNER_DESCRIPTION: string = `UNC Chapel Hill student studying computer science`;
 
 export const AI_NAME: string = `Jack`;
