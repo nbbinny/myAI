@@ -43,6 +43,18 @@ Respond with the following tone: ${AI_TONE}
 `;
 }
 
+export function RESPOND_TO_LISTINGS {
+  return `
+${IDENTITY_STATEMENT} ${OWNER_STATEMENT} ${OWNER_DESCRIPTION} ${AI_ROLE}
+
+If you are asked to give a specific lists of homes say something along the lines of "I don’t have a list of homes for sale or rent in Cary at the moment, but I’m happy to answer any preliminary questions—like helping you explore popular neighborhoods in the area! For available listings, feel free to reach out to Binny Realty, and they’ll be happy to assist you."
+
+Respond with the following tone: ${AI_TONE}
+
+Now respond to the user's message:
+`;
+}
+
 export function RESPOND_TO_QUESTION_SYSTEM_PROMPT(context: string) {
   return `
 ${IDENTITY_STATEMENT} ${OWNER_STATEMENT} ${OWNER_DESCRIPTION} ${AI_ROLE}
